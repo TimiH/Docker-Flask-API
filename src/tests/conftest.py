@@ -1,5 +1,5 @@
 import pytest
-from src import create_app, db  # updated
+from src import create_app, db
 
 
 @pytest.fixture(scope='module')
